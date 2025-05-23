@@ -1,2 +1,6 @@
 # venv
 /venv
+
+# pycache
+/backend/__pycache__
+/backend/util/__pycache__

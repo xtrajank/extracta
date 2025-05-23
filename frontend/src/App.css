@@ -40,3 +40,51 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  color: rgb(51, 51, 187);
+}
+
+h2, a {
+  color: rgb(51, 51, 187);
+  font-weight: bold;
+}
+
+.goback {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+h4, .title {
+  color: rgb(51, 51, 187);
+}
+
+ul.colSelect, li.colSelect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+ul.colSelect {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table th, #table td {
+  padding: 8px;
+  text-align: left;
+}
+
+#table th {
+  background-color: #f4f4f4;
+}
